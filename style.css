@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+main{
+    margin: 150px auto;
+}
+
+.encabezado {
+    display: flex;
+    width: 80%;
+    margin-left: 250px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px 0px black;
+    align-items: center;
+}
+
+header {
+    background-image: url(imagenes/bmw-m4-edicion-bmw-m-50-aniversario-1-1658240369.jpg);
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    height: 920px;
+    flex-direction: column;
+}
+
+.left__block--lista {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+
+.right__block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.lupa {
+    width: 25px;
+    height: auto;
+}
+
+.usuario {
+    width: 25px;
+    height: auto;
+}
+
+.ubicacion {
+
+    width: 35px;
+    height: 35px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    text-align: center;
+    background-color: white;
+    padding: 13%;
+}
+
+
+#logo p {
+    width: 100%;
+    font-size: 10px;
+    background-color: white;
+    padding: 13%;
+    text-align: center;
+    height: auto;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+
+}
+
+.descripcion__p {
+    font-size: 40px;
+    color: white;
+}
+
+.descripcion__p1 {
+    font-size: 28px;
+    color: white;
+}
+
+.descripcion__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2971cd;
+    color: rgb(255 255 255);
+    width: 18.5%;
+    height: 47px;
+    margin-top: 25px
+}
+
+
+#series p {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 7%;
+    margin-top: 7%;
+}
+
+.clases {
+    display: flex;
+    font-size: large;
+    gap: 60px;
+    list-style: none;
+    font-size: 32px;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+
+
+.clases span {
+    font-size: 50px;
+    display: flex;
+    font-weight: 100;
+    box-shadow: 0 4px #2971cd;
+
+}
+
+.coches ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+li img {
+
+    height: 200px;
+    width: auto;
+}
+
+li span {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 1px;
+    font-weight: 1000;
+}
+
+
+li p {
+    color: #a9a4a4;
+    font-weight: 700;
+}
+
+.opciones {
+    margin-top: 10px;
+}
+
+.segundo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: start;
+    margin-left: 5%;
+    margin-top: 60px;
+}
+
+.segundo ul {
+    list-style: none;
+}
+
+.segundo h3 {
+    margin-top: 40px;
+}
+
+.tarjetas {
+    margin-top: 5rem;
+    width: 100vw;
+    height: 50vh;
+}
+
+.contenedor {
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.virtual {
+    border: 1px solid rgba(88, 84, 84, 0.437);
+    padding: 1rem;
+    width: 330px;
+    height: auto;
+    gap: 1rem;
+}
+
+.virtual h2 {
+    margin-top: 1rem;
+    font-size: 40px;
+    line-height: 2rem;
+}
+
+.virtual img {
+    width: 100%;
+    height: auto;
+}
+
+.virtual p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.virtual a {
+    margin-top: 30px;
+    font-weight: 1000;
+}
+
+.contenedor2{
+    margin-top: 5rem;
+    width: 100vw;
+    height: 50vh;
+}
+
+.contenedor2__cuadrado{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
