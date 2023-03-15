@@ -246,6 +246,7 @@ li p {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  gap: 20px;
 }
 
 .contenedor2__cuadrado--1 img {
